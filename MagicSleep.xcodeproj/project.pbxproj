@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF2CD1C20D4CD2600330716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD1B20D4CD2600330716 /* AppDelegate.swift */; };
+		4CF2CD1E20D4CD2600330716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD1D20D4CD2600330716 /* ViewController.swift */; };
+		4CF2CD2120D4CD2600330716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2CD1F20D4CD2600330716 /* Main.storyboard */; };
+		4CF2CD2320D4CD2600330716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2CD2220D4CD2600330716 /* Assets.xcassets */; };
+		4CF2CD2620D4CD2600330716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2CD2420D4CD2600330716 /* LaunchScreen.storyboard */; };
+		4CF2CD3120D4CD2700330716 /* MagicSleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD3020D4CD2700330716 /* MagicSleepTests.swift */; };
+		4CF2CD3C20D4CD2700330716 /* MagicSleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD3B20D4CD2700330716 /* MagicSleepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF2CD2D20D4CD2700330716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF2CD1020D4CD2600330716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF2CD1720D4CD2600330716;
+			remoteInfo = MagicSleep;
+		};
+		4CF2CD3820D4CD2700330716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF2CD1020D4CD2600330716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF2CD1720D4CD2600330716;
+			remoteInfo = MagicSleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CF2CD1820D4CD2600330716 /* MagicSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2CD1B20D4CD2600330716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF2CD1D20D4CD2600330716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF2CD2020D4CD2600330716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF2CD2220D4CD2600330716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF2CD2520D4CD2600330716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF2CD2720D4CD2700330716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF2CD2C20D4CD2700330716 /* MagicSleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2CD3020D4CD2700330716 /* MagicSleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSleepTests.swift; sourceTree = "<group>"; };
+		4CF2CD3220D4CD2700330716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF2CD3720D4CD2700330716 /* MagicSleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF2CD3B20D4CD2700330716 /* MagicSleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSleepUITests.swift; sourceTree = "<group>"; };
+		4CF2CD3D20D4CD2700330716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF2CD1520D4CD2600330716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD2920D4CD2700330716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD3420D4CD2700330716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF2CD0F20D4CD2600330716 = {
+			isa = PBXGroup;
+			children = (
+				4CF2CD1A20D4CD2600330716 /* MagicSleep */,
+				4CF2CD2F20D4CD2700330716 /* MagicSleepTests */,
+				4CF2CD3A20D4CD2700330716 /* MagicSleepUITests */,
+				4CF2CD1920D4CD2600330716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF2CD1920D4CD2600330716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2CD1820D4CD2600330716 /* MagicSleep.app */,
+				4CF2CD2C20D4CD2700330716 /* MagicSleepTests.xctest */,
+				4CF2CD3720D4CD2700330716 /* MagicSleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF2CD1A20D4CD2600330716 /* MagicSleep */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2CD1B20D4CD2600330716 /* AppDelegate.swift */,
+				4CF2CD1D20D4CD2600330716 /* ViewController.swift */,
+				4CF2CD1F20D4CD2600330716 /* Main.storyboard */,
+				4CF2CD2220D4CD2600330716 /* Assets.xcassets */,
+				4CF2CD2420D4CD2600330716 /* LaunchScreen.storyboard */,
+				4CF2CD2720D4CD2700330716 /* Info.plist */,
+			);
+			path = MagicSleep;
+			sourceTree = "<group>";
+		};
+		4CF2CD2F20D4CD2700330716 /* MagicSleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2CD3020D4CD2700330716 /* MagicSleepTests.swift */,
+				4CF2CD3220D4CD2700330716 /* Info.plist */,
+			);
+			path = MagicSleepTests;
+			sourceTree = "<group>";
+		};
+		4CF2CD3A20D4CD2700330716 /* MagicSleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CF2CD3B20D4CD2700330716 /* MagicSleepUITests.swift */,
+				4CF2CD3D20D4CD2700330716 /* Info.plist */,
+			);
+			path = MagicSleepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF2CD1720D4CD2600330716 /* MagicSleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2CD4020D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleep" */;
+			buildPhases = (
+				4CF2CD1420D4CD2600330716 /* Sources */,
+				4CF2CD1520D4CD2600330716 /* Frameworks */,
+				4CF2CD1620D4CD2600330716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicSleep;
+			productName = MagicSleep;
+			productReference = 4CF2CD1820D4CD2600330716 /* MagicSleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF2CD2B20D4CD2700330716 /* MagicSleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2CD4320D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepTests" */;
+			buildPhases = (
+				4CF2CD2820D4CD2700330716 /* Sources */,
+				4CF2CD2920D4CD2700330716 /* Frameworks */,
+				4CF2CD2A20D4CD2700330716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF2CD2E20D4CD2700330716 /* PBXTargetDependency */,
+			);
+			name = MagicSleepTests;
+			productName = MagicSleepTests;
+			productReference = 4CF2CD2C20D4CD2700330716 /* MagicSleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CF2CD3620D4CD2700330716 /* MagicSleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF2CD4620D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepUITests" */;
+			buildPhases = (
+				4CF2CD3320D4CD2700330716 /* Sources */,
+				4CF2CD3420D4CD2700330716 /* Frameworks */,
+				4CF2CD3520D4CD2700330716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF2CD3920D4CD2700330716 /* PBXTargetDependency */,
+			);
+			name = MagicSleepUITests;
+			productName = MagicSleepUITests;
+			productReference = 4CF2CD3720D4CD2700330716 /* MagicSleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF2CD1020D4CD2600330716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Henry Hsiao";
+				TargetAttributes = {
+					4CF2CD1720D4CD2600330716 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4CF2CD2B20D4CD2700330716 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4CF2CD1720D4CD2600330716;
+					};
+					4CF2CD3620D4CD2700330716 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4CF2CD1720D4CD2600330716;
+					};
+				};
+			};
+			buildConfigurationList = 4CF2CD1320D4CD2600330716 /* Build configuration list for PBXProject "MagicSleep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CF2CD0F20D4CD2600330716;
+			productRefGroup = 4CF2CD1920D4CD2600330716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF2CD1720D4CD2600330716 /* MagicSleep */,
+				4CF2CD2B20D4CD2700330716 /* MagicSleepTests */,
+				4CF2CD3620D4CD2700330716 /* MagicSleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF2CD1620D4CD2600330716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2CD2620D4CD2600330716 /* LaunchScreen.storyboard in Resources */,
+				4CF2CD2320D4CD2600330716 /* Assets.xcassets in Resources */,
+				4CF2CD2120D4CD2600330716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD2A20D4CD2700330716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD3520D4CD2700330716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF2CD1420D4CD2600330716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2CD1E20D4CD2600330716 /* ViewController.swift in Sources */,
+				4CF2CD1C20D4CD2600330716 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD2820D4CD2700330716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2CD3120D4CD2700330716 /* MagicSleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF2CD3320D4CD2700330716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF2CD3C20D4CD2700330716 /* MagicSleepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF2CD2E20D4CD2700330716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF2CD1720D4CD2600330716 /* MagicSleep */;
+			targetProxy = 4CF2CD2D20D4CD2700330716 /* PBXContainerItemProxy */;
+		};
+		4CF2CD3920D4CD2700330716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF2CD1720D4CD2600330716 /* MagicSleep */;
+			targetProxy = 4CF2CD3820D4CD2700330716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CF2CD1F20D4CD2600330716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF2CD2020D4CD2600330716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF2CD2420D4CD2600330716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF2CD2520D4CD2600330716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF2CD3E20D4CD2700330716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF2CD3F20D4CD2700330716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF2CD4120D4CD2700330716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CF2CD4220D4CD2700330716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CF2CD4420D4CD2700330716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicSleep.app/MagicSleep";
+			};
+			name = Debug;
+		};
+		4CF2CD4520D4CD2700330716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicSleep.app/MagicSleep";
+			};
+			name = Release;
+		};
+		4CF2CD4720D4CD2700330716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicSleep;
+			};
+			name = Debug;
+		};
+		4CF2CD4820D4CD2700330716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 248ZENH376;
+				INFOPLIST_FILE = MagicSleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrychsiao.MagicSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicSleep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF2CD1320D4CD2600330716 /* Build configuration list for PBXProject "MagicSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2CD3E20D4CD2700330716 /* Debug */,
+				4CF2CD3F20D4CD2700330716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2CD4020D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2CD4120D4CD2700330716 /* Debug */,
+				4CF2CD4220D4CD2700330716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2CD4320D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2CD4420D4CD2700330716 /* Debug */,
+				4CF2CD4520D4CD2700330716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF2CD4620D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF2CD4720D4CD2700330716 /* Debug */,
+				4CF2CD4820D4CD2700330716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF2CD1020D4CD2600330716 /* Project object */;
+}
