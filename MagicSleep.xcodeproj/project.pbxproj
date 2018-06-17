@@ -14,6 +14,9 @@
 		4CF2CD2620D4CD2600330716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF2CD2420D4CD2600330716 /* LaunchScreen.storyboard */; };
 		4CF2CD3120D4CD2700330716 /* MagicSleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD3020D4CD2700330716 /* MagicSleepTests.swift */; };
 		4CF2CD3C20D4CD2700330716 /* MagicSleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2CD3B20D4CD2700330716 /* MagicSleepUITests.swift */; };
+		99BBC9A160695CFC392B7C01 /* Pods_MagicSleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D511E51C3C51889563F34CBF /* Pods_MagicSleep.framework */; };
+		B7CEB5E77BA31CD9D8F1BF44 /* Pods_MagicSleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8316B45748CFF3CE00D645 /* Pods_MagicSleepUITests.framework */; };
+		DAD552384E5C8EF8EA2FF829 /* Pods_MagicSleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1B5C3FC15A989B915ECF2B /* Pods_MagicSleepTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1361B98F045A32BE85BFBAE7 /* Pods-MagicSleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleepTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleepTests/Pods-MagicSleepTests.release.xcconfig"; sourceTree = "<group>"; };
+		1989CC348843C65FA0CC0EB4 /* Pods-MagicSleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleep.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleep/Pods-MagicSleep.release.xcconfig"; sourceTree = "<group>"; };
 		4CF2CD1820D4CD2600330716 /* MagicSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2CD1B20D4CD2600330716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF2CD1D20D4CD2600330716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		4CF2CD3720D4CD2700330716 /* MagicSleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicSleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF2CD3B20D4CD2700330716 /* MagicSleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSleepUITests.swift; sourceTree = "<group>"; };
 		4CF2CD3D20D4CD2700330716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF2A3C5BD718483931D63AB /* Pods-MagicSleepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleepUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleepUITests/Pods-MagicSleepUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94E1728E16E507733BA7CEF8 /* Pods-MagicSleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleep/Pods-MagicSleep.debug.xcconfig"; sourceTree = "<group>"; };
+		9C8316B45748CFF3CE00D645 /* Pods_MagicSleepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicSleepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1B5C3FC15A989B915ECF2B /* Pods_MagicSleepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicSleepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20646CE3DBDF8BA878F818A /* Pods-MagicSleepUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleepUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleepUITests/Pods-MagicSleepUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D511E51C3C51889563F34CBF /* Pods_MagicSleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicSleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFB41A10F269204600834EC /* Pods-MagicSleepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicSleepTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicSleepTests/Pods-MagicSleepTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BBC9A160695CFC392B7C01 /* Pods_MagicSleep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD552384E5C8EF8EA2FF829 /* Pods_MagicSleepTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7CEB5E77BA31CD9D8F1BF44 /* Pods_MagicSleepUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				4CF2CD2F20D4CD2700330716 /* MagicSleepTests */,
 				4CF2CD3A20D4CD2700330716 /* MagicSleepUITests */,
 				4CF2CD1920D4CD2600330716 /* Products */,
+				AE734BD1E14762E0FAB36DAD /* Pods */,
+				E4C93B793483E6ACA8CCC43E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MagicSleepUITests;
 			sourceTree = "<group>";
 		};
+		AE734BD1E14762E0FAB36DAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E1728E16E507733BA7CEF8 /* Pods-MagicSleep.debug.xcconfig */,
+				1989CC348843C65FA0CC0EB4 /* Pods-MagicSleep.release.xcconfig */,
+				DAFB41A10F269204600834EC /* Pods-MagicSleepTests.debug.xcconfig */,
+				1361B98F045A32BE85BFBAE7 /* Pods-MagicSleepTests.release.xcconfig */,
+				4EF2A3C5BD718483931D63AB /* Pods-MagicSleepUITests.debug.xcconfig */,
+				D20646CE3DBDF8BA878F818A /* Pods-MagicSleepUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4C93B793483E6ACA8CCC43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D511E51C3C51889563F34CBF /* Pods_MagicSleep.framework */,
+				CC1B5C3FC15A989B915ECF2B /* Pods_MagicSleepTests.framework */,
+				9C8316B45748CFF3CE00D645 /* Pods_MagicSleepUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF2CD4020D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleep" */;
 			buildPhases = (
+				F13443649009D4CE72DAA298 /* [CP] Check Pods Manifest.lock */,
 				4CF2CD1420D4CD2600330716 /* Sources */,
 				4CF2CD1520D4CD2600330716 /* Frameworks */,
 				4CF2CD1620D4CD2600330716 /* Resources */,
@@ -149,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF2CD4320D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepTests" */;
 			buildPhases = (
+				372E5D801375B614615589C1 /* [CP] Check Pods Manifest.lock */,
 				4CF2CD2820D4CD2700330716 /* Sources */,
 				4CF2CD2920D4CD2700330716 /* Frameworks */,
 				4CF2CD2A20D4CD2700330716 /* Resources */,
@@ -167,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF2CD4620D4CD2700330716 /* Build configuration list for PBXNativeTarget "MagicSleepUITests" */;
 			buildPhases = (
+				88FD82BE151209017862CA8E /* [CP] Check Pods Manifest.lock */,
 				4CF2CD3320D4CD2700330716 /* Sources */,
 				4CF2CD3420D4CD2700330716 /* Frameworks */,
 				4CF2CD3520D4CD2700330716 /* Resources */,
@@ -250,6 +293,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372E5D801375B614615589C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicSleepTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FD82BE151209017862CA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicSleepUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13443649009D4CE72DAA298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicSleep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CF2CD1420D4CD2600330716 /* Sources */ = {
@@ -428,6 +528,7 @@
 		};
 		4CF2CD4120D4CD2700330716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E1728E16E507733BA7CEF8 /* Pods-MagicSleep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +547,7 @@
 		};
 		4CF2CD4220D4CD2700330716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1989CC348843C65FA0CC0EB4 /* Pods-MagicSleep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +566,7 @@
 		};
 		4CF2CD4420D4CD2700330716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFB41A10F269204600834EC /* Pods-MagicSleepTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +588,7 @@
 		};
 		4CF2CD4520D4CD2700330716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1361B98F045A32BE85BFBAE7 /* Pods-MagicSleepTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +610,7 @@
 		};
 		4CF2CD4720D4CD2700330716 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF2A3C5BD718483931D63AB /* Pods-MagicSleepUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +631,7 @@
 		};
 		4CF2CD4820D4CD2700330716 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20646CE3DBDF8BA878F818A /* Pods-MagicSleepUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

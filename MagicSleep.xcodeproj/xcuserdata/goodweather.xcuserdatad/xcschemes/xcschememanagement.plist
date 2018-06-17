@@ -7,7 +7,25 @@
 		<key>MagicSleep.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4CF2CD1720D4CD2600330716</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CF2CD2B20D4CD2700330716</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CF2CD3620D4CD2700330716</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
