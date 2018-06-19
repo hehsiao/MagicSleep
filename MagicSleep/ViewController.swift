@@ -88,8 +88,8 @@ class ViewController: UIViewController {
             player!.stop()
         } else {
             count -= 1
-            if (player!.currentTime >= player!.duration - 2) {
-                player!.currentTime = TimeInterval(124.0)
+            if (player!.currentTime >= TimeInterval(179.0)) {
+                player!.currentTime = TimeInterval(23)
             }
             timeLabel.text = timeString(time: TimeInterval(count))
         }
