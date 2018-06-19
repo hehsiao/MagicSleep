@@ -42,22 +42,56 @@
                                     <action selector="resetTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ec-nl-S09"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1to-YW-hDF">
+                                <rect key="frame" x="47" y="475" width="280" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="maximumTrackTintColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="adjustSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Tdd-VL-Rfv"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0l-Oe-5kK">
+                                <rect key="frame" x="83" y="374" width="138" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="DcJ-75-iRm">
+                                <rect key="frame" x="49" y="489" width="276" height="2"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZK-tq-GN2">
-                                <rect key="frame" x="59" y="168" width="256" height="36"/>
+                                <rect key="frame" x="59" y="86" width="256" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="zyS-Mr-ED0">
+                                <rect key="frame" x="0.0" y="117" width="375" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <date key="date" timeIntervalSinceReferenceDate="550956801.23534501">
+                                    <!--2018-06-17 19:33:21 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="pickTime:" destination="BYZ-38-t0r" eventType="valueChanged" id="Rao-po-SNA"/>
+                                </connections>
+                            </datePicker>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="pauseButton" destination="GKz-Oo-wNr" id="Bw1-hn-sVU"/>
+                        <outlet property="playerProgress" destination="DcJ-75-iRm" id="yJt-SL-bT8"/>
+                        <outlet property="playerSlider" destination="1to-YW-hDF" id="yub-w3-WBY"/>
+                        <outlet property="progressLabel" destination="d0l-Oe-5kK" id="Vxs-tA-Z2X"/>
                         <outlet property="resetButton" destination="HsA-dG-wW0" id="MCe-sE-cfb"/>
                         <outlet property="startButton" destination="pjB-DD-ExB" id="i5o-2p-UhS"/>
                         <outlet property="timeLabel" destination="2ZK-tq-GN2" id="L8X-J7-7i1"/>
+                        <outlet property="timePicker" destination="zyS-Mr-ED0" id="rE4-1Q-etS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
