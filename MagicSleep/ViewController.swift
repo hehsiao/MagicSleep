@@ -10,54 +10,39 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
-    var counter = 30.0
     var timer = Timer()
     var isPlaying = false
     var player: AVAudioPlayer?
+    var count = 0
     
-    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
-    @IBOutlet weak var progressLabel: UILabel!
-    @IBOutlet weak var playerProgress: UIProgressView!
-    @IBOutlet weak var playerSlider: UISlider!
     
+    @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var timePicker: UIDatePicker!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        timeLabel.text = timeString(time: TimeInterval(counter))
+        timeLabel.font = UIFont.monospacedDigitSystemFont(ofSize: 50.0, weight: UIFont.Weight.light)
         pauseButton.isEnabled = false
-        
-        playerProgress.progress = 0.0
-        playerSlider.isContinuous = false
-        
-        timePicker.countDownDuration = TimeInterval(3600)
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: .mixWithOthers)
-            print("Playback OK")
             try AVAudioSession.sharedInstance().setActive(true)
-            print("Session is Active")
         } catch {
             print(error)
         }
     }
     
+    @IBAction func pickTime(_ sender: Any) {
+        count = Int(timePicker.countDownDuration)
+        print(count)
+        timeLabel.text = timeString(time: timePicker.countDownDuration)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func pickTime(_ sender: Any) {
-        timeLabel.text = timeString(time: TimeInterval(counter))
-    }
-    
-    @IBAction func adjustSlider(_ playerSlider: UISlider) {
-        if player != nil {
-            player!.currentTime = TimeInterval(playerSlider.value)
-        }
     }
     
     @IBAction func startTimer(_ sender: Any) {
@@ -66,7 +51,8 @@ class ViewController: UIViewController {
         }
         startButton.isEnabled = false
         pauseButton.isEnabled = true
-        
+        timePicker.isHidden = true
+        timePicker.isEnabled = false
         playSound()
         timer = Timer.scheduledTimer(
             withTimeInterval: 1,
@@ -89,33 +75,23 @@ class ViewController: UIViewController {
     @IBAction func resetTimer(_ sender: Any) {
         startButton.isEnabled = true
         pauseButton.isEnabled = false
-        
+        timePicker.isHidden = false
+        timePicker.isEnabled = true
         timer.invalidate()
         stopSound()
         isPlaying = false
-        counter = 360.0
-        playerProgress.progress = 0.0
-        progressLabel.text = timeString(time: TimeInterval(playerProgress.progress))
-        timeLabel.text = timeString(time: TimeInterval(counter))
     }
     
     func updateTimer() {
-        // increase progress value
-        
-        if counter < 1 {
+        if count < 1 {
             timer.invalidate()
             player!.stop()
-            //Send alert to indicate "time's up!"
         } else {
-            counter -= 1
+            count -= 1
             if (player!.currentTime >= player!.duration - 2) {
                 player!.currentTime = TimeInterval(124.0)
             }
-            
-            playerProgress.progress = Float(player!.currentTime / player!.duration)
-            playerSlider.value = Float(player!.currentTime)
-            progressLabel.text = timeString(time: TimeInterval(player!.currentTime))
-            timeLabel.text = timeString(time: TimeInterval(counter))
+            timeLabel.text = timeString(time: TimeInterval(count))
         }
     }
     
@@ -127,10 +103,6 @@ class ViewController: UIViewController {
     }
     
     func playSound() {
-        if playerProgress.progress >= 1  {
-            playerProgress.progress = 0.0
-        }
-        
         if player == nil {
             if let sound = NSDataAsset(name: "travelsleep_full") {
                 do {
@@ -145,8 +117,6 @@ class ViewController: UIViewController {
         } else {
             player!.play()
         }
-        
-        playerSlider.maximumValue = Float(player!.duration)
     }
     
     func stopSound() {
